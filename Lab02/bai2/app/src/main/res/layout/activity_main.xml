@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <!-- Nhập khối lượng -->
+    <EditText
+        android:id="@+id/editTextWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập khối lượng (kg)"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:minHeight="48dp" />
+
+    <!-- Nhập chiều cao -->
+    <EditText
+        android:id="@+id/editTextHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập chiều cao (m)"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:minHeight="48dp"
+        android:layout_marginTop="16dp" />
+
+    <!-- Nút tính toán BMI -->
+    <Button
+        android:id="@+id/buttonCalculateBMI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tính chỉ số BMI"
+        android:padding="12dp"
+        android:minHeight="48dp"
+        android:layout_marginTop="16dp" />
+
+    <!-- Hiển thị kết quả BMI -->
+    <TextView
+        android:id="@+id/textViewBMI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chỉ số BMI: "
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+    <!-- Hiển thị chẩn đoán -->
+    <TextView
+        android:id="@+id/textViewDiagnosis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tình trạng cơ thể: "
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp" />
+</LinearLayout>

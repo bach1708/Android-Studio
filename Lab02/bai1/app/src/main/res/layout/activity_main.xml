@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <!-- Nhập nhiệt độ Celsius -->
+    <EditText
+        android:id="@+id/editTextCelsius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập nhiệt độ C"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:minHeight="48dp" />
+
+    <!-- Nhập nhiệt độ Fahrenheit -->
+    <EditText
+        android:id="@+id/editTextFahrenheit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập nhiệt độ F"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:minHeight="48dp"
+        android:layout_marginTop="16dp" />
+
+    <!-- Nút chuyển sang Celsius -->
+    <Button
+        android:id="@+id/buttonToCelsius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chuyển sang Celsius"
+        android:padding="12dp"
+        android:minHeight="48dp"
+        android:layout_marginTop="16dp" />
+
+    <!-- Nút chuyển sang Fahrenheit -->
+    <Button
+        android:id="@+id/buttonToFahrenheit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chuyển sang Fahrenheit"
+        android:padding="12dp"
+        android:minHeight="48dp"
+        android:layout_marginTop="8dp" />
+
+    <!-- Nút xóa -->
+    <Button
+        android:id="@+id/buttonClear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xóa"
+        android:padding="12dp"
+        android:minHeight="48dp"
+        android:layout_marginTop="8dp" />
+</LinearLayout>

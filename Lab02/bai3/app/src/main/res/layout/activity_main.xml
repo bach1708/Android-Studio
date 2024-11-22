@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <!-- Nhập số a -->
+    <EditText
+        android:id="@+id/editTextA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập số a"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:minHeight="48dp" />
+
+    <!-- Nhập số b -->
+    <EditText
+        android:id="@+id/editTextB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập số b"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:minHeight="48dp"
+        android:layout_marginTop="16dp" />
+
+    <!-- Nút cộng -->
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cộng"
+        android:padding="12dp"
+        android:layout_marginTop="16dp" />
+
+    <!-- Nút trừ -->
+    <Button
+        android:id="@+id/buttonSubtract"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trừ"
+        android:padding="12dp"
+        android:layout_marginTop="8dp" />
+
+    <!-- Nút nhân -->
+    <Button
+        android:id="@+id/buttonMultiply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhân"
+        android:padding="12dp"
+        android:layout_marginTop="8dp" />
+
+    <!-- Nút chia -->
+    <Button
+        android:id="@+id/buttonDivide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chia"
+        android:padding="12dp"
+        android:layout_marginTop="8dp" />
+
+    <!-- Hiển thị kết quả -->
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kết quả: "
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:gravity="center" />
+</LinearLayout>
